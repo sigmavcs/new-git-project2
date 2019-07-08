@@ -39,15 +39,25 @@
         "name": "a",
         "type": "DIRECTORY",
         "isDirectory": true,
-        "children": [],
+        "children": [
+          "aed58045-79e2-4a6c-b6ca-45069b999516"
+        ],
         "isRemovable": true,
         "filePath": "new-git-project/a"
+      },
+      "aed58045-79e2-4a6c-b6ca-45069b999516": {
+        "id": "aed58045-79e2-4a6c-b6ca-45069b999516",
+        "parent": "1bddb56a-97a9-4c31-8129-8864df299230",
+        "name": "another.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "new-git-project/a/another.js",
+        "code": ""
       }
     },
-    "deletedFiles": [
-      "new-git-project/a/b",
-      "new-git-project/a/b/c.js"
-    ],
+    "deletedFiles": [],
     "rootNode": "2703bb79-5b42-42b2-86f1-c33ffbaa250b",
     "openFiles": [
       "6315a9cd-805e-411a-8087-4f2ca8f7f638"
@@ -102,7 +112,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1562598644461
+    "lastSave": 1562606848956
   },
   "VCS_STATE": {
     "provider": "GitHub",
