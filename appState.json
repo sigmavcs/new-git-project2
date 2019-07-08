@@ -34,10 +34,8 @@
       }
     },
     "deletedFiles": [
-      "new-git-project/subdir",
-      "new-git-project/subdir/__init__.py",
-      "new-git-project/subdir/new.js",
-      "new-git-project/subdir/new.py"
+      "new-git-project/ewrwe.py",
+      "new-git-project/__init__.py"
     ],
     "rootNode": "2703bb79-5b42-42b2-86f1-c33ffbaa250b",
     "openFiles": [
@@ -76,7 +74,14 @@
       }
     ],
     "packageJSON": {
-      "dependencies": {}
+      "dependencies": {
+        "dsdfsd": {
+          "name": "dsdfsd",
+          "version": "22",
+          "dev": false,
+          "language": "python"
+        }
+      }
     }
   },
   "PROJECT_META": {
@@ -86,7 +91,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1562586948817
+    "lastSave": 1562588258216
   },
   "VCS_STATE": {
     "provider": "GitHub",
