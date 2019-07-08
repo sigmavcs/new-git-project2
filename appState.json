@@ -8,7 +8,8 @@
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "6315a9cd-805e-411a-8087-4f2ca8f7f638"
+          "6315a9cd-805e-411a-8087-4f2ca8f7f638",
+          "ba9a532c-d097-4503-96ac-17cbc0a0ec62"
         ],
         "isRemovable": false,
         "filePath": "new-git-project"
@@ -31,11 +32,72 @@
           "layers": []
         },
         "triggers": []
+      },
+      "ba9a532c-d097-4503-96ac-17cbc0a0ec62": {
+        "id": "ba9a532c-d097-4503-96ac-17cbc0a0ec62",
+        "parent": "2703bb79-5b42-42b2-86f1-c33ffbaa250b",
+        "name": "subdir",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "ba9014d1-8664-4254-9ba6-57ecac32b9eb",
+          "b927d0b9-fa2e-46b4-ace2-28628a048155",
+          "32426482-4a05-4915-9263-13a7ed9e22fc"
+        ],
+        "isRemovable": true,
+        "filePath": "new-git-project/subdir"
+      },
+      "ba9014d1-8664-4254-9ba6-57ecac32b9eb": {
+        "id": "ba9014d1-8664-4254-9ba6-57ecac32b9eb",
+        "parent": "ba9a532c-d097-4503-96ac-17cbc0a0ec62",
+        "name": "new.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "new-git-project/subdir/new.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "b927d0b9-fa2e-46b4-ace2-28628a048155": {
+        "id": "b927d0b9-fa2e-46b4-ace2-28628a048155",
+        "parent": "ba9a532c-d097-4503-96ac-17cbc0a0ec62",
+        "name": "new.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "new-git-project/subdir/new.py",
+        "code": "def handler(event, context):\n    \n    return {\"message\": \"Successfully executed\"}\n",
+        "config": {
+          "runtime": "python2.7",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "32426482-4a05-4915-9263-13a7ed9e22fc": {
+        "id": "32426482-4a05-4915-9263-13a7ed9e22fc",
+        "parent": "ba9a532c-d097-4503-96ac-17cbc0a0ec62",
+        "name": "__init__.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "new-git-project/subdir/__init__.py",
+        "code": ""
       }
     },
-    "deletedFiles": [
-      "new-git-project/subdir"
-    ],
+    "deletedFiles": [],
     "rootNode": "2703bb79-5b42-42b2-86f1-c33ffbaa250b",
     "openFiles": [
       "6315a9cd-805e-411a-8087-4f2ca8f7f638"
@@ -54,6 +116,14 @@
         "shouldPersist": false,
         "displayOnly": false,
         "editable": false
+      },
+      {
+        "lambdaId": "b927d0b9-fa2e-46b4-ace2-28628a048155",
+        "varKey": "PYTHONPATH",
+        "varValue": "/var/runtime:/var/task/new-git-project/subdir",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
       }
     ],
     "packageJSON": {
@@ -67,7 +137,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1562584482957
+    "lastSave": 1562584570626
   },
   "VCS_STATE": {
     "provider": "GitHub",
