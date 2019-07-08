@@ -8,8 +8,7 @@
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "6315a9cd-805e-411a-8087-4f2ca8f7f638",
-          "6998268e-6c56-421a-8eb3-c2018c369068"
+          "6315a9cd-805e-411a-8087-4f2ca8f7f638"
         ],
         "isRemovable": false,
         "filePath": "new-git-project"
@@ -32,74 +31,13 @@
           "layers": []
         },
         "triggers": []
-      },
-      "6998268e-6c56-421a-8eb3-c2018c369068": {
-        "id": "6998268e-6c56-421a-8eb3-c2018c369068",
-        "parent": "2703bb79-5b42-42b2-86f1-c33ffbaa250b",
-        "name": "subdir",
-        "type": "DIRECTORY",
-        "isDirectory": true,
-        "children": [
-          "c891b9b4-eb32-4ee2-888c-7ffef4ef3dc2",
-          "a5c3f468-5be0-4c24-896f-f470cc6963ef",
-          "163766fa-8e5b-4712-8e7f-7250ccb7251a"
-        ],
-        "isRemovable": true,
-        "filePath": "new-git-project/subdir"
-      },
-      "c891b9b4-eb32-4ee2-888c-7ffef4ef3dc2": {
-        "id": "c891b9b4-eb32-4ee2-888c-7ffef4ef3dc2",
-        "parent": "6998268e-6c56-421a-8eb3-c2018c369068",
-        "name": "__init__.py",
-        "type": "PYTHON_FILE",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "new-git-project/subdir/__init__.py",
-        "code": ""
-      },
-      "a5c3f468-5be0-4c24-896f-f470cc6963ef": {
-        "id": "a5c3f468-5be0-4c24-896f-f470cc6963ef",
-        "parent": "6998268e-6c56-421a-8eb3-c2018c369068",
-        "name": "new.js",
-        "type": "JS_LAMBDA",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "new-git-project/subdir/new.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
-        "config": {
-          "runtime": "nodejs8.10",
-          "handler": "handler",
-          "timeout": 60,
-          "memory": 128,
-          "layers": []
-        },
-        "triggers": []
-      },
-      "163766fa-8e5b-4712-8e7f-7250ccb7251a": {
-        "id": "163766fa-8e5b-4712-8e7f-7250ccb7251a",
-        "parent": "6998268e-6c56-421a-8eb3-c2018c369068",
-        "name": "new.py",
-        "type": "PYTHON_LAMBDA",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "new-git-project/subdir/new.py",
-        "code": "def handler(event, context):\n    \n    return {\"message\": \"Successfully executed\"}\n",
-        "config": {
-          "runtime": "python2.7",
-          "handler": "handler",
-          "timeout": 60,
-          "memory": 128,
-          "layers": []
-        },
-        "triggers": []
       }
     },
     "deletedFiles": [
-      "new-git-project/subdir/newfile.js",
-      "new-git-project/subdir/newfile.py"
+      "new-git-project/subdir",
+      "new-git-project/subdir/__init__.py",
+      "new-git-project/subdir/new.js",
+      "new-git-project/subdir/new.py"
     ],
     "rootNode": "2703bb79-5b42-42b2-86f1-c33ffbaa250b",
     "openFiles": [
@@ -148,7 +86,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1562585695803
+    "lastSave": 1562586007767
   },
   "VCS_STATE": {
     "provider": "GitHub",
