@@ -9,8 +9,7 @@
         "isDirectory": true,
         "children": [
           "6315a9cd-805e-411a-8087-4f2ca8f7f638",
-          "14b90e67-d3a1-48dd-b4a3-60d1220a4912",
-          "3b04898f-6220-4de4-a4a9-70f4deeff386"
+          "14b90e67-d3a1-48dd-b4a3-60d1220a4912"
         ],
         "isRemovable": false,
         "filePath": "new-git-project"
@@ -43,21 +42,10 @@
         "children": [],
         "isRemovable": true,
         "filePath": "new-git-project/subdir"
-      },
-      "3b04898f-6220-4de4-a4a9-70f4deeff386": {
-        "id": "3b04898f-6220-4de4-a4a9-70f4deeff386",
-        "parent": "2703bb79-5b42-42b2-86f1-c33ffbaa250b",
-        "name": "new.js",
-        "type": "JS_FILE",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "new-git-project/new.js",
-        "code": ""
       }
     },
     "deletedFiles": [
-      "new-git-project/subdir/new.js"
+      "new-git-project/new.js"
     ],
     "rootNode": "2703bb79-5b42-42b2-86f1-c33ffbaa250b",
     "openFiles": [
@@ -90,7 +78,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1562584341198
+    "lastSave": 1562584389036
   },
   "VCS_STATE": {
     "provider": "GitHub",
