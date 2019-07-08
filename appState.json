@@ -8,7 +8,8 @@
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "6315a9cd-805e-411a-8087-4f2ca8f7f638"
+          "6315a9cd-805e-411a-8087-4f2ca8f7f638",
+          "4dde0fc8-c213-4df5-bff7-eb9c3c8acab7"
         ],
         "isRemovable": false,
         "filePath": "new-git-project"
@@ -31,16 +32,62 @@
           "layers": []
         },
         "triggers": []
+      },
+      "4dde0fc8-c213-4df5-bff7-eb9c3c8acab7": {
+        "id": "4dde0fc8-c213-4df5-bff7-eb9c3c8acab7",
+        "parent": "2703bb79-5b42-42b2-86f1-c33ffbaa250b",
+        "name": "level1",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "77c8d3d8-0cad-4d55-8887-bd98f288b162"
+        ],
+        "isRemovable": true,
+        "filePath": "new-git-project/level1"
+      },
+      "77c8d3d8-0cad-4d55-8887-bd98f288b162": {
+        "id": "77c8d3d8-0cad-4d55-8887-bd98f288b162",
+        "parent": "4dde0fc8-c213-4df5-bff7-eb9c3c8acab7",
+        "name": "level2",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "853dc478-486a-40ef-89ab-6ea9fa07d895"
+        ],
+        "isRemovable": true,
+        "filePath": "new-git-project/level1/level2"
+      },
+      "853dc478-486a-40ef-89ab-6ea9fa07d895": {
+        "id": "853dc478-486a-40ef-89ab-6ea9fa07d895",
+        "parent": "77c8d3d8-0cad-4d55-8887-bd98f288b162",
+        "name": "level3",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "c74bc241-f6bf-4d28-8989-4f8c233e2b40"
+        ],
+        "isRemovable": true,
+        "filePath": "new-git-project/level1/level2/level3"
+      },
+      "c74bc241-f6bf-4d28-8989-4f8c233e2b40": {
+        "id": "c74bc241-f6bf-4d28-8989-4f8c233e2b40",
+        "parent": "853dc478-486a-40ef-89ab-6ea9fa07d895",
+        "name": "new.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "new-git-project/level1/level2/level3/new.js",
+        "code": "console.log(\"hi!\");"
       }
     },
-    "deletedFiles": [
-      "new-git-project/ff"
-    ],
+    "deletedFiles": [],
     "rootNode": "2703bb79-5b42-42b2-86f1-c33ffbaa250b",
     "openFiles": [
-      "6315a9cd-805e-411a-8087-4f2ca8f7f638"
+      "6315a9cd-805e-411a-8087-4f2ca8f7f638",
+      "c74bc241-f6bf-4d28-8989-4f8c233e2b40"
     ],
-    "currentFileId": "6315a9cd-805e-411a-8087-4f2ca8f7f638",
+    "currentFileId": "c74bc241-f6bf-4d28-8989-4f8c233e2b40",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -90,7 +137,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1562588509429
+    "lastSave": 1562588618927
   },
   "VCS_STATE": {
     "provider": "GitHub",
