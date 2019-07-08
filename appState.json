@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "2703bb79-5b42-42b2-86f1-c33ffbaa250b": {
+        "id": "2703bb79-5b42-42b2-86f1-c33ffbaa250b",
+        "parent": null,
+        "name": "new-git-project",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "6315a9cd-805e-411a-8087-4f2ca8f7f638"
+        ],
+        "isRemovable": false,
+        "filePath": "new-git-project"
+      },
+      "6315a9cd-805e-411a-8087-4f2ca8f7f638": {
+        "id": "6315a9cd-805e-411a-8087-4f2ca8f7f638",
+        "parent": "2703bb79-5b42-42b2-86f1-c33ffbaa250b",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "new-git-project/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "2703bb79-5b42-42b2-86f1-c33ffbaa250b",
+    "openFiles": [
+      "6315a9cd-805e-411a-8087-4f2ca8f7f638"
+    ],
+    "currentFileId": "6315a9cd-805e-411a-8087-4f2ca8f7f638",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "new-git-project",
+    "projectDescription": "new git project",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1562581387068
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "new-git-project",
+      "url": "https://github.com/sigmavcs/new-git-project2"
+    }
+  }
+}
